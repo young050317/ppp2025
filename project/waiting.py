@@ -51,7 +51,6 @@ async def send_message(token, chat_id, name, people_num, waiting_num):
 
 def check_waiting_list():
     if not waiting_list:
-        sg.popup("현재 대기 입장 가능합니다.")
         return
     
     lines = []
