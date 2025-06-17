@@ -78,7 +78,7 @@ def main():
         waiting_list.append((name, people_num, waiting_num))
 
         token = "7660166562:AAEkqWN8ISso6GOclcGhlYf_wA52vqtHra4" 
-        chat_id = 8031468060
+        chat_id = 
         asyncio.run(send_message(token, chat_id, name, people_num, waiting_num))
         
         sg.popup(f"{name}님! {people_num}명 웨이팅 등록 완료!! {waiting_num}번")
